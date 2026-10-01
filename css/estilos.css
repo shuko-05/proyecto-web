@@ -1,0 +1,19 @@
+/* Evita que la barra fija tape el título al navegar por los enlaces */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+
+/* Portada: pantalla completa con degradado */
+.hero {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1f2937 0%, #0f766e 100%);
+}
+
+/* Tarjetas: pequeño efecto al pasar el mouse */
+.card {
+    transition: transform .2s ease;
+}
+.card:hover {
+    transform: translateY(-4px);
+}
